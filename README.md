@@ -5,10 +5,8 @@ To use the installation scripts, simply run this command as root means do sudo s
 
 To get started, clone the repository using the following command:
 
-bash
-Copy
-Edit
 git clone https://github.com/deadlauncherg/Lapiogaming-skyport.git
+
 After cloning, follow the setup instructions in the README.md or docs/ directory to configure your environment.
 
 💡 Make sure you have git installed on your system. You can install it via your package manager if it's not already available.
