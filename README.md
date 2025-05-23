@@ -1,11 +1,11 @@
 # Lapiogaming-skyport
 SKYPORT PANEL 
 Using the installation scripts
-To use the installation scripts, simply run this command as root means do sudo su. The script will provide you clone then do cd SKYPORTPANEL.sh then u get 1-4 selection slot choose any option which you want 
+To use the installation scripts, simply run this command as root means do sudo su. The script will provide you clone then u get 1-8 selection slot choose any option which you want 
 
 To get started, clone the repository using the following command:
 
-git clone https://github.com/deadlauncherg/Lapiogaming-skyport.git
+bash <(curl -s https://raw.githubusercontent.com/deadlauncherg/Lapiogaming-skyport/main/SKYPORTPANEL.sh)
 
 After cloning, follow the setup instructions in the README.md or docs/ directory to configure your environment.
 
