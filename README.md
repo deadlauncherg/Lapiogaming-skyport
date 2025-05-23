@@ -43,4 +43,22 @@ Support the project and stay updated by subscribing to the official LapioGaming 
 
 🎥 Get tutorials, project updates, and more—delivered directly to your feed.
 
+✨ Contributors & Credits
+This project is proudly developed and maintained by LapioGaming with the support of the open-source community.
+
+Copyright © 2023–2024
+LapioGaming – YouTube Channel
+📧 Contact: mmd941853@gmail.com
+
+👨‍💻 Project Leadership
+Created by: LapioGaming
+
+Maintained by: LapioGaming
+
+LapioGaming is committed to delivering high-quality tools and resources for developers, gamers, and server administrators. Your feedback, suggestions, and contributions help improve the project for everyone.
+
+🤝 How to Contribute
+We welcome and appreciate contributions of any kind. Whether it's fixing bugs, improving documentation, or suggesting new features—your input is valuable.
+
+To get started, please check out the CONTRIBUTING.md file for guidelines.
 
