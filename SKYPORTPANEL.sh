@@ -3,9 +3,9 @@
 show_info() {
   echo "######################################################################################"
   echo "#                                                                                    #"
-  echo "# Project 'skyport-installer'                                                        #"
+  echo "# Project 'LAPIOGAMING'                                                              #"
   echo "#                                                                                    #"
-  echo "# Copyright (C) 2024, LAPIOGAMING, <lapiogamer@gmail.com>                            #"
+  echo "# Copyright (C) 2024, Lapiogaming, <mmd941853@gmail.com>                             #"
   echo "#                                                                                    #"
   echo "#   This program is free software: you can redistribute it and/or modify             #"
   echo "#   it under the terms of the GNU General Public License as published by             #"
@@ -20,10 +20,10 @@ show_info() {
   echo "#   You should have received a copy of the GNU General Public License                #"
   echo "#   along with this program.  If not, see <https://www.gnu.org/licenses/>.           #"
   echo "#                                                                                    #"
-  echo "#   https://github.com/deadlauncherg/Lapiogaming-skyport.git                         #"
+  echo "#   https://github.com/deadlauncherg/Lapiogaming-skyport/blob/main/LICENSE           #"
   echo "#                                                                                    #"
   echo "# This script is not associated with the official Skyport Project.                   #"
-  echo "# https://github.com/LAPIOGAMING/skyport-installer                                    #"
+  echo "# https://github.com/deadlauncherg/Lapiogaming-skyport.git                           #"
   echo "#                                                                                    #"
   echo "######################################################################################"
 }
@@ -351,13 +351,17 @@ while true; do
   clear
   show_info
   echo "Choose an option:"
-  echo "1) Install Skyport Panel"
-  echo "2) Install Skyport Daemon (Wings)"
-  echo "3) Install both Skyport Panel and Daemon"
-  echo "4) Exit"
-  read -p "Enter your selection [1-4]: " selection
+  echo "1: Install Skyport Panel"
+  echo "2: Install Skyport Daemon (Wings)"
+  echo "3: Install both Skyport Panel and Daemon"
+  echo "4: Uninstall Skyport Panel"
+  echo "5: Uninstall Skyport Daemon"
+  echo "6: Update Skyport Panel"
+  echo "7: Update Skyport Daemon"
+  echo "8: Exit"
+  read -p "Enter your choice [1-8]: " choice
 
-  case $selection in
+  case $choice in
     1)
       install_nodejs
       install_panel
@@ -371,7 +375,19 @@ while true; do
       install_panel
       install_daemon
       ;;
-   
+    4)
+      uninstall_panel
+      ;;
+    5)
+      uninstall_daemon
+      ;;
+    6)
+      update_panel
+      ;;
+    7)
+      update_daemon
+      ;;
+    8)
       echo "Exiting..."
       exit 0
       ;;
