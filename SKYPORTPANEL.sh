@@ -20,7 +20,7 @@ show_info() {
   echo "#   You should have received a copy of the GNU General Public License                #"
   echo "#   along with this program.  If not, see <https://www.gnu.org/licenses/>.           #"
   echo "#                                                                                    #"
-  echo "#   https://github.com/LAPIOGAMING/skyport-installer/blob/master/LICENSE              #"
+  echo "#   https://github.com/deadlauncherg/Lapiogaming-skyport.git                         #"
   echo "#                                                                                    #"
   echo "# This script is not associated with the official Skyport Project.                   #"
   echo "# https://github.com/LAPIOGAMING/skyport-installer                                    #"
@@ -351,17 +351,13 @@ while true; do
   clear
   show_info
   echo "Choose an option:"
-  echo "1: Install Skyport Panel"
-  echo "2: Install Skyport Daemon (Wings)"
-  echo "3: Install both Skyport Panel and Daemon"
-  echo "4: Uninstall Skyport Panel"
-  echo "5: Uninstall Skyport Daemon"
-  echo "6: Update Skyport Panel"
-  echo "7: Update Skyport Daemon"
-  echo "8: Exit"
-  read -p "Enter your choice [1-8]: " choice
+  echo "1) Install Skyport Panel"
+  echo "2) Install Skyport Daemon (Wings)"
+  echo "3) Install both Skyport Panel and Daemon"
+  echo "4) Exit"
+  read -p "Enter your selection [1-4]: " selection
 
-  case $choice in
+  case $selection in
     1)
       install_nodejs
       install_panel
@@ -375,19 +371,7 @@ while true; do
       install_panel
       install_daemon
       ;;
-    4)
-      uninstall_panel
-      ;;
-    5)
-      uninstall_daemon
-      ;;
-    6)
-      update_panel
-      ;;
-    7)
-      update_daemon
-      ;;
-    8)
+   
       echo "Exiting..."
       exit 0
       ;;
