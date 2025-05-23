@@ -35,3 +35,12 @@ After cloning, follow the setup instructions in the README.md or docs/ directory
 | **macOS**  | 10.15+      | ✅ Supported         |
 
 * Indicates Supported or non supported versions *
+
+  📺 Stay Connected
+Support the project and stay updated by subscribing to the official LapioGaming YouTube channel:
+
+🔗 Subscribe to LapioGaming on YouTube
+
+🎥 Get tutorials, project updates, and more—delivered directly to your feed.
+
+
